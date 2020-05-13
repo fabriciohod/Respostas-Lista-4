@@ -1,11 +1,14 @@
-namespace Q7
+using System;
+namespace Q2
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static int SomaDaMatriz (int[, ] matriz)
         {
-            
+            int sum = 0;
+            foreach (var item in matriz) sum += item;
+            return sum;
         }
-        
+
     }
 }
