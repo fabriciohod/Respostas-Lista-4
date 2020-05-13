@@ -13,6 +13,8 @@
    | ([2,3,7,89,5,3] , 3)  |   2   |
    | ([2,3,7,89,5,3] , 90) |   0   |
 
+   
+
 4. Criar uma função que receba uma matriz de números inteiros e retorne  algum elemento dela escolhido de forma aleatória. Observação: *Deve ser utilizados os métodos da classe System.Random* para a escolha aleatória.
 
    
