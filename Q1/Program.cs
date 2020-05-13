@@ -12,6 +12,5 @@ namespace Q1
             }
             return max;
         }
-
     }
 }

@@ -3,12 +3,12 @@ namespace Q2
 {
     public class Program
     {
-        public static int SomaDaMatriz (int[, ] matriz)
+        public static int SomaDaosParesMatriz (int[, ] matriz)
         {
             int sum = 0;
-            foreach (var item in matriz) sum += item;
+            foreach (var item in matriz) if (item % 2 == 0) sum += item;
+
             return sum;
         }
-
     }
 }

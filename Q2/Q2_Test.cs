@@ -9,9 +9,9 @@ namespace Q2
         [Fact]
         public void TestName ()
         {
-            int[, ] matriz = { { 31, 78, 90 }, { 85, 97, 40 }, { 123, 7, 90 } };
+            int[, ] matriz = { { 32, 7, 2 }, { 3, 9, 43 }, { 67, 40, 93 } };
 
-            Assert.Equal (641, SomaDaMatriz (matriz));
+            Assert.Equal (74, SomaDaMatriz (matriz));
         }
     }
 }
