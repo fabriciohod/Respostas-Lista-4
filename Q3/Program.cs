@@ -14,7 +14,7 @@ namespace Q3
                     qtdDeRepetissoes++;
                 }
             }
-            if (qtdDeRepetissoes == 0) return "0";
+            if (qtdDeRepetissoes == 0) return $"o numero {comparador} nao foi encontrado";
             return $"O numero {comparador} se repete {qtdDeRepetissoes}";
         }
     }
