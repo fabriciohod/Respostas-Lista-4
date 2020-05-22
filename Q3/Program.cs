@@ -9,7 +9,7 @@ namespace Q3
             int qtdDeRepetissoes = 0;
             foreach (var item in array)
             {
-                if (item == comparador && array.GroupBy (x => x).Any (g => g.Count () > 1))
+                if (item == comparador)
                 {
                     qtdDeRepetissoes++;
                 }
